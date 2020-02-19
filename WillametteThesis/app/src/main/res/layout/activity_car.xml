@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFF"
+    android:background="@color/backgroundColor">
     tools:context=".carActivity">
+    <!--    android:background="#FFFF"-->
 
 
 
@@ -49,7 +50,7 @@
         android:layout_width="80dp"
         android:layout_height="50dp"
         android:layout_marginTop="28dp"
-        android:hint="0"
+        android:hint="@string/zero"
         android:inputType="number"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,7 +63,7 @@
         android:layout_width="80dp"
         android:layout_height="50dp"
         android:layout_marginTop="32dp"
-        android:hint="0"
+        android:hint="@string/zero"
         android:inputType="number"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,7 +76,7 @@
         android:layout_width="80dp"
         android:layout_height="50dp"
         android:layout_marginTop="52dp"
-        android:hint="0"
+        android:hint="@string/zero"
         android:inputType="number"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,7 +89,7 @@
         android:layout_width="80dp"
         android:layout_height="50dp"
         android:layout_marginTop="48dp"
-        android:hint="0"
+        android:hint="@string/zero"
         android:inputType="number"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -100,6 +101,7 @@
         android:id="@+id/imageView4"
         android:layout_width="152dp"
         android:layout_height="96dp"
+        android:contentDescription="image of a car"
         android:src="@drawable/car"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
