@@ -23,14 +23,11 @@
     <string name="default_int_value">0</string>
 
     <string name="title_data_display">data_display</string>
+    <string name="transportation">Transportation</string>
+    <string name="line_">------------------------</string>
+    <string name="miles">Miles</string>
+    <string name="main_description">Pick a category to start recording your daily activities</string>
+    <string name="title_activity_waste">activity_waste</string>
 
-    <resources>
-        <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
-        <string name="facebook_application_id" translatable="false">com.example.willamette_thesis</string>
-        <string name="facebook_login_protocol_scheme" translatable="false">fbcom.example.willamette_thesis</string>
-        <!-- Twitter consumer key and secret -->
-<!--        <string name="twitter_consumer_key" translatable="false">YOUR_CONSUMER_KEY</string>-->
-<!--        <string name="twitter_consumer_secret" translatable="false">YOUR_CONSUMER_SECRET</string>-->
-    </resources>
 
 </resources>
